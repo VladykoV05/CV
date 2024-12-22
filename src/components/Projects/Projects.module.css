@@ -1,0 +1,76 @@
+.projects {
+    margin: 20px auto; /* Центрируем контейнер по горизонтали */
+    display: flex;
+    flex-direction: column; /* Располагаем элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    gap: 20px; /* Зазор между проектами */
+    width: 80%; /* Ограничиваем ширину контейнера */
+    max-width: 900px; /* Максимальная ширина для контейнера */
+    background-color: #fffdf3;
+  }
+  
+ .projects h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #fffdf3;
+  }
+  
+  .project {
+    background-color: #fef8db;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Тень для визуального отделения */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Ячейки занимают всю ширину контейнера */
+    max-width: 600px; /* Максимальная ширина ячеек */
+  }
+  
+  .project h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #fef8db;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    background-color: #fef8db;
+  }
+  
+  .project a {
+    color: #007BFF;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: #fef8db;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  /* Дополнительные стили для мобильных устройств */
+  @media (max-width: 768px) {
+    .projects {
+      width: 95%; /* Ширина контейнера для мобильных экранов */
+    }
+    .project {
+      max-width: 100%; /* На мобильных экранах проект занимает всю ширину */
+    }
+  }
+  

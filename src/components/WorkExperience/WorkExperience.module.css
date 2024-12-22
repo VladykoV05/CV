@@ -1,0 +1,57 @@
+/* Родительский контейнер, который центрирует блок на экране */
+.wrapper {
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+    align-items: flex-start; /* Центрируем по вертикали */
+    min-height: 100vh; /* Минимальная высота 100% экрана */
+    padding: 20px; /* Немного отступов */
+    background-color: #fffdf3;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%; /* Блок будет адаптироваться по ширине */
+    max-width: 1200px; /* Ограничиваем максимальную ширину */
+  }
+  
+  .photoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .photo {
+    width: 25em;
+    height: 25em;
+    border-radius: 5%;
+    object-fit: cover;
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30em;
+    margin-left: 5em;
+  }
+  
+ .textContent h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #fffdf3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+  }

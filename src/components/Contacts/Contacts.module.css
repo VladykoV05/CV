@@ -1,6 +1,7 @@
+
 .contacts {
     text-align: center;
-    background-color: #fef8db;
+    background-color: #fef8db; /* Добавляем фоновый цвет */
     padding: 20px; /* Добавляем внутренние отступы для улучшения внешнего вида */
     border-radius: 10px; /* Скругляем углы */
   }
@@ -9,6 +10,7 @@
     display: flex;
     justify-content: center; /* Центрируем элементы по горизонтали */
     gap: 20px; /* Добавляем промежуток между элементами */
+    
     background-color: #fef8db;
   }
 
@@ -26,7 +28,7 @@
     background-color: #fef8db;
   }
 
-  h2{
+ .contacts h2{
     background-color: #fef8db;
   }
   
